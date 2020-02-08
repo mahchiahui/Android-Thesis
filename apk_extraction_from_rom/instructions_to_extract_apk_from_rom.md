@@ -17,3 +17,5 @@ After, you have to mount the newly created system.img file into an output folder
 You have successfully unzipped an android rom
 
 <img src="/images/rom_apk_files.png" width="400"/>
+
+Instructions found [here](https://forum.xda-developers.com/android/software-hacking/how-to-conver-lollipop-dat-files-to-t2978952)
