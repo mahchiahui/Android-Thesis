@@ -1,8 +1,9 @@
 # Extracting Apk from Android ROM
-First download the firmware from the OEM (original equipment manufacturer
+First download the firmware from the OEM (original equipment manufacturer)
 
 Here is what is inside the zip file
-<img src="/images/unzip_rom.png" width=400/>
+
+<img src="/images/unzip_rom.png" width="400"/>
 
 Using [sdat2img.py](https://github.com/xpirt/sdat2img/blob/master/sdat2img.py), you can unzip the system.new.dat file into a system.img file
 
