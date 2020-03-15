@@ -28,7 +28,7 @@ Identify the System app folders
 
 Run scan.py
 
-<img src="/images/scan_usage.png" width="400"/>
+<img src="/images/scan_usage.png" width="1200"/>
 
 Get output
 
@@ -36,4 +36,4 @@ Get output
 
 excel file
 
-<img src="/images/output_results.png" width="400"/>
+<img src="/images/output_results.png" width="1000"/>
