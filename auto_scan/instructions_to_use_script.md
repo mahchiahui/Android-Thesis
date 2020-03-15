@@ -19,16 +19,21 @@ python scan.py -p <path to extracted apks> -api <mobsf api key> -url <url mobsf 
 ## Example
 
 Mount the ROM
+
 <img src="/images/extract_rom.png" width="400"/>
 
 Identify the System app folders
+
 <img src="/images/preinstalled_apps.png" width="400"/>
 
 Run scan.py
+
 <img src="/images/scan_usage.png" width="400"/>
 
 Get output
+
 <img src="/images/output.png" width="400"/>
 
 excel file
+
 <img src="/images/output_results.png" width="400"/>
