@@ -5,20 +5,20 @@ ODEX files are the optimized versions of .DEX files, which contain the executabl
 ## Instructions
 ADB pull /system/framework and /system/app
 
-<img src="/images/adb_pull.png" width="400"/>
+<img src="/images/adb_pull.png" width="1000"/>
 
 Download [baksmali-2.4.0.jar](https://bitbucket.org/JesusFreke/smali/downloads/) and use it to convert odex to smali code
 
-<img src="/images/baksmali_decode.png" width="400"/>
+<img src="/images/baksmali_decode.png" width="1000"/>
 
 Convert the smali code to a dex file using [smali-2.4.0.jar](https://bitbucket.org/JesusFreke/smali/downloads/)
 
-<img src="/images/convert_to_dex.png" width="400"/>
+<img src="/images/convert_to_dex.png" width="1000"/>
 
 Use [Apktool](https://ibotpeaches.github.io/Apktool/install/) to unzip the apk file
 
-<img src="/images/apktool_decode.png" width="400"/>
+<img src="/images/apktool_decode.png" width="1000"/>
 
 Copy the classes.dex file into the decoded apk folder and build the apk with Apktool
 
-<img src="/images/apktool_build.png" width="400"/>
+<img src="/images/apktool_build.png" width="800"/>
