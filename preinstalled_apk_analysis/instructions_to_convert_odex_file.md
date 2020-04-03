@@ -3,6 +3,7 @@
 ODEX files are the optimized versions of .DEX files, which contain the executable code for an Android app. Android creates ODEX files for apps before they are run, and they contain the same filename prefix as their corresponding APK file (e.g., MyApp.apk and MyApp.odex). The data in ODEX files replaces data used in the equivalent DEX file (classes.dex) stored inside the APK file. When analyzing preinstalled apks, the actual apk does not contain the typical classes.dex that is found in user-installed apk. The analyst has to convert the odex file to smali, convert that to dex code and then put that classes.dex into the apk.
 
 ## Instructions
+
 ADB pull /system/framework and /system/app
 
 <img src="/images/adb_pull.png" width="1000"/>
@@ -22,3 +23,17 @@ Use [Apktool](https://ibotpeaches.github.io/Apktool/install/) to unzip the apk f
 Copy the classes.dex file into the decoded apk folder and build the apk with Apktool
 
 <img src="/images/apktool_build.png" width="800"/>
+
+## Script
+
+If going through the instructions is too tedious, you can use the script written for it by running the following
+
+```bash
+python full_apk.py -p <path to extracted apks> -f <path to framework> -o <path to output>
+```
+
+An example can be seen in the following
+
+```bash
+python full_apk.py -p ~/Huawei_Y9_System_apps/ -f ~/framework/arm64/ -o output/
+```

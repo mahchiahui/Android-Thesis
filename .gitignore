@@ -1,1 +1,5 @@
 .vscode
+preinstalled_apk_analysis/output/
+preinstalled_apk_analysis/env/
+auto_scan/env/
+auto_scan/output.xlsx
