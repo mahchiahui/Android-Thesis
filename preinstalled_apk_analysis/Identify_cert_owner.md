@@ -18,4 +18,4 @@ keytool -printcert -file <path to system apk folder>/original/META-INF/CERT.RSA
 
 you will get an output like this
 
-<img src="/images/keytool.png" width="1000"/>
+<img src="/images/keytool_output.png" width="1000"/>
