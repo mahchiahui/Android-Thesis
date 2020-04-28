@@ -1,5 +1,6 @@
 # Guide to analyzing preinstalled Android applications
 
+Using this guide, a researcher should be able to easily begin analyzing pre-installed Android applications.
 
 ## Extracting APK
 
