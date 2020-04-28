@@ -6,7 +6,7 @@ A simple way to understand what information is being sent out of the device is u
 
 Download and install the app from [Google's playstore](https://play.google.com/store/apps/details?id=edu.berkeley.icsi.haystack&hl=en_SG)
 
-<img src="/images/lumen_download.png" width="1000"/>
+<img src="/images/lumen_download.png" width="700"/>
 
 Click on the "Off" button to turn on Lumen's monitoring mode
 
