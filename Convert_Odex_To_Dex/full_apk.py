@@ -33,7 +33,7 @@ def odex_integration(odex_path, framework_path, apk_name, apk_path, output_path)
 	os.rename("classes.dex", temp_folder + "/classes.dex")
 
 	# zip up
-	apktools_assemble = "java -jar apktool_2.4.1.jar b -o " + apk_name + " " + temp_folder + "/"
+	apktools_assemble = "java -jar ../Tools/apktool_2.4.1.jar b -o " + apk_name + " " + temp_folder + "/"
 	os.system(apktools_assemble)
 	shutil.rmtree(temp_folder)
 
